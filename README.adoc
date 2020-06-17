@@ -1,0 +1,27 @@
+= Meteor with Elm starter kit
+
+This project is a starter kit to initialise an application with Meteor and Elm
+
+== Requirement
+
+You need to install Meteor on your system
+
+== Run the application
+
+First install the dependencies of the project
+
+```shell
+meteor npm install
+```
+
+Then you can start your application using this command
+
+```shell
+meteor npm start
+```
+
+Open your browser on http://localhost:3000
+
+== Architecture
+
+TODO
