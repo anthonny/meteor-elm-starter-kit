@@ -24,4 +24,11 @@ Open your browser on http://localhost:3000
 
 == Architecture
 
+=== Schema
 TODO
+
+=== Elm application
+
+The Elm application is under the folder packages/elm-app/app
+
+TODO: Complete
