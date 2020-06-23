@@ -1,5 +1,5 @@
-import "./main.scss";
-const { Elm } = require("./src/Main.elm");
+import './main.scss';
+const { Elm } = require('./src/Main.elm');
 
 /* 
   We should add the definition of Flags
@@ -13,8 +13,8 @@ const { Elm } = require("./src/Main.elm");
 interface Flags {}
 
 export interface Configuration {
-  node: HTMLElement | null;
-  flags: Flags;
+    node: HTMLElement | null;
+    flags: Flags;
 }
 
 /* 
@@ -24,9 +24,7 @@ export interface Configuration {
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 export interface Ports {}
 
-export const init: (configuration: Configuration) => Ports = (
-  configuration
-) => {
-  const app = Elm.Main.init(configuration);
-  return app.ports;
+export const init: (configuration: Configuration) => Ports = (configuration) => {
+    const app = Elm.Main.init(configuration);
+    return app.ports;
 };
