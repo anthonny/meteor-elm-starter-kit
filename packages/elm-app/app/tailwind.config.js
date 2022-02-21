@@ -1,9 +1,39 @@
 const path = require('path');
+
+const defaultTheme = require("tailwindcss/defaultTheme");
+const colors = require("tailwindcss/colors");
+
 module.exports = {
-    purge: [path.join(__dirname, 'src/**/*.elm')],
+    content: [path.join(__dirname, 'src/**/*.elm')],
     theme: {
+        extend: {
+            colors: {
+                primary: colors.indigo,
+                gray: colors.slate,
+                orange: colors.orange,
+            },
+            fontFamily: {
+                sans: ["Inter", ...defaultTheme.fontFamily.sans],
+            },
+            typography: (theme) => ({
+                DEFAULT: {
+                    css: {
+                        code: {
+                            backgroundColor: colors.blue[50],
+                        },
+                        "code::before": {
+                            content: '""',
+                        },
+                        "code::after": {
+                            content: '""',
+                        },
+                    },
+                },
+            }),
+        },
+    },
+    variants: {
         extend: {},
     },
-    variants: {},
-    plugins: [],
+    plugins: [require('@tailwindcss/forms')]
 };

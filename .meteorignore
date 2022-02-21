@@ -1,1 +1,5 @@
 /packages/elm-app/app/**/*
+/packages/elm-app/dist/__book/**/*
+/packages/elm-app/app/book.html
+/packages/elm-app/app/book.ts
+/packages/elm-app/app/src/Components/Book.elm

@@ -1,4 +1,5 @@
-node_modules/
+.cache
+.parcel-cache
 dist
 elm-stuff
-.cache
+node_modules/

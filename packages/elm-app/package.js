@@ -6,8 +6,8 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-    api.versionsFrom('1.10.2');
+    api.versionsFrom('2.6');
     api.use('modules');
-    api.addFiles('dist/elm-app.css', 'client');
-    api.mainModule('dist/elm-app.js', 'client');
+    api.addFiles('dist/style.css', 'client');
+    api.mainModule('dist/index.js', 'client');
 });

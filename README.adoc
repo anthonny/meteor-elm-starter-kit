@@ -22,6 +22,16 @@ meteor npm start
 
 Open your browser on http://localhost:3000
 
+=== Elm Book
+
+You can run the elm-book application with
+
+```shell
+meteor npm run book
+```
+
+Open your browser on http://localhost:3030
+
 == Architecture
 
 === Schema

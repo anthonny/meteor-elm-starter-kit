@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply h-full
+}
+
+body {
+    @apply antialiased;
+    @apply font-sans text-gray-800;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+}
