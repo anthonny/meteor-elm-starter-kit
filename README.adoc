@@ -49,7 +49,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 == Authors
-- [Anthonny Quérouil](https://twitter.com/anthonny_q)
+- https://twitter.com/anthonny_q[Anthonny Quérouil]
 
 == License
-[MIT](https://choosealicense.com/licenses/mit/)
+https://choosealicense.com/licenses/mit/[MIT]
