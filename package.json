@@ -56,7 +56,8 @@
     },
     "importSort": {
         ".js, .ts": {
-            "style": "module"
+            "style": "module",
+            "parser": "typescript"
         }
     },
     "husky": {
