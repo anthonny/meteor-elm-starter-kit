@@ -1,7 +1,7 @@
 const path = require('path');
 
-const defaultTheme = require("tailwindcss/defaultTheme");
-const colors = require("tailwindcss/colors");
+const defaultTheme = require('tailwindcss/defaultTheme');
+const colors = require('tailwindcss/colors');
 
 module.exports = {
     content: [path.join(__dirname, 'src/**/*.elm')],
@@ -9,12 +9,12 @@ module.exports = {
         extend: {
             colors: {
                 primary: colors.indigo,
-                gray: colors.slate
-            }
+                gray: colors.slate,
+            },
         },
     },
     variants: {
         extend: {},
     },
-    plugins: [require('@tailwindcss/forms')]
+    plugins: [require('@tailwindcss/forms')],
 };
