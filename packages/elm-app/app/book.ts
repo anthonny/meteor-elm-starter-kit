@@ -1,7 +1,7 @@
+// eslint-disable-next-line
 // @ts-ignore
-import { Elm } from "./src/Components/Book.elm";
+import { Elm } from './src/Components/Book.elm';
 
-const app = Elm.Components.Book.init({
+Elm.Components.Book.init({
     flags: {},
 });
-
